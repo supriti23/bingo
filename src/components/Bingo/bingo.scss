@@ -1,0 +1,47 @@
+.col-2 {
+  background-color: rgb(245, 229, 225);
+  background-image: linear-gradient(rgb(252, 253, 193), rgb(245, 229, 225));
+  text-align: center;
+  border: 2px solid rgb(136, 131, 131);
+  height: 20vh;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.col-2:hover {
+  background-image: linear-gradient(rgb(120, 226, 199), rgb(211, 200, 229));
+}
+
+.freeElement {
+  background-position: center;
+  background-size: cover;
+}
+.bingo {
+  width: auto;
+  background-color: rgb(245, 229, 225);
+}
+@media only screen and (max-width: 540px) {
+  .col-2 {
+    width: 5vh;
+    font-size: 1.7vh;
+  }
+  .freeElement {
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .col-2 {
+    width: 0.9vh;
+    font-size: 1.5vh;
+  }
+  .freeElement {
+    background-position: center;
+    background-repeat: repeat-y;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .col-2 {
+    font-size: 0.5rem;
+  }
+}
