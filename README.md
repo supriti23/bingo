@@ -6,6 +6,7 @@ This is a Bingo game demo which shows some general text related to video confere
 * Bootstrap 4.0
 * Jest and React Testing Library for Testing
 
- ### Link to view the application
+ ### Live Demo
+ https://supriti23.github.io/bingo/
 
  

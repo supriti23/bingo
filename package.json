@@ -1,7 +1,6 @@
 {
   "name": "bingo",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://supriti23.github.io/bingo/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
